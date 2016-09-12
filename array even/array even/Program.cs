@@ -11,7 +11,7 @@ namespace array_even
        public static void Main(string[] args)
         {
             int input_size;
-            Console.WriteLine("Введите число");
+            Console.WriteLine("задайте размер массива");
             while (!int.TryParse(Console.ReadLine(), out input_size ))
                 {
                     Console.WriteLine("Не корректное число");
